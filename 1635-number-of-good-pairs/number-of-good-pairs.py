@@ -1,5 +1,5 @@
 class Solution:
-    def numIdenticalPairs(self, nums: List[int]) -> int:
+    def numIdenticalPairs(self, nums):
         hashmap = Counter(nums)
         pairs = 0
         for freq in hashmap.values():
