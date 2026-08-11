@@ -3,3 +3,4 @@ class Solution:
         if sorted(s) == sorted(t):
             return True
         return False
+        # return Counter(s) == Counter(b)
